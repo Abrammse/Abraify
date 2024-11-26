@@ -1,0 +1,18 @@
+import React from 'react';
+import Header from '../components/Header';
+import Steps from '../components/Steps';
+import Des from '../components/des';
+import { Terser } from 'vite';
+import Testimonials from '../components/testimonials';
+const Home = () => {
+  return (
+    <div>
+      <Header/>
+      <Steps/>
+      <Des/>
+      <Testimonials/>
+    </div>
+  );
+}
+
+export default Home;
